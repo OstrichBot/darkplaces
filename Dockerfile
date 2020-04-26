@@ -2,7 +2,7 @@
 FROM ubuntu:latest
 
 # Install necessary packages
-RUN apt-get update && apt-get install -y wget darkplaces
+RUN apt-get update && apt-get install -y darkplaces
 
 # Open Ports
 EXPOSE 26000/udp
