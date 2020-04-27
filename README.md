@@ -3,10 +3,11 @@
 ![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/ostrichbot/darkplaces)
 ![Docker Pulls](https://img.shields.io/docker/pulls/ostrichbot/darkplaces)
 
+### Run from your darkplaces folder
 ```
 sudo docker run -d \
     --name darkplaces \
     -p 26000:26000/udp \
-    -v $pwd/id1:/darkplaces/id1 \
+    -v $(pwd)/id1:/darkplaces/id1 \
     ostrichbot/darkplaces
 ```
